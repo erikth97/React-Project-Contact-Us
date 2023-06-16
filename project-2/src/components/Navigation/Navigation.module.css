@@ -1,4 +1,4 @@
-nav {
+.navigation {
     padding: 0 8px;
     display: flex;
     height: 72px;
@@ -6,7 +6,7 @@ nav {
     justify-content: space-between;
   }
   
-  nav ul {
+  .navigation ul {
     display: flex;
     gap: 24px;
     list-style-type: none;
