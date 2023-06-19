@@ -1,16 +1,16 @@
-import styles from "./Navigation.module.css"
+import styles from "./Navigation.module.css";
 
 const Navigation = () => {
-  return ( 
+  return (
     <nav className={`${styles.navigation} container`}>
       <div className="logo">
-        <img src="" alt="logo denso" />
+        <img src="/images/denso-logo.png" alt="denso-logo"  width="85" height="60" />
       </div>
 
       <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
       </ul>
     </nav>
   );
